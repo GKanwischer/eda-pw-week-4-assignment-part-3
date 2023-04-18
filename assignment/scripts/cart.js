@@ -57,3 +57,7 @@ console.log(listItems( basket ));
 console.log(removeItem( 'pears' ));
 console.log(removeItem( 'lemons' ));
 console.log( `The basket is now ${basket}` );
+
+empty(); // empty the basket
+console.log( basket );
+console.log( `The basket is now ${basket}` );
